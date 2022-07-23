@@ -1,0 +1,29 @@
+.parent{
+    position: relative;
+}
+
+.above-fold{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(52.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 1400px;
+    margin-top: 5px;
+    border-radius: 15px;
+} */
